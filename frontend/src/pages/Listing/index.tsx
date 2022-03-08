@@ -1,8 +1,12 @@
+import MovieScore from "../../components/MovieScore";
 import Pagination from "../../components/Pagination";
 
-function Listing (){
+function Listing () {
     return(
-        <Pagination />
+        <>
+            <Pagination />
+            <MovieScore />
+        </>
     );
 }
 
